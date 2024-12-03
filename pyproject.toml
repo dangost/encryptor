@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "encryptor"
+version = "0.1.0"
+description = "Unix-systems utility for encryption and storing files safe"
+authors = ["Danila Kislitsyn <dangost16@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.2"
+cryptography = "^44.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
