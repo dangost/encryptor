@@ -6,9 +6,12 @@ authors = ["Danila Kislitsyn <dangost16@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9.2"
+python = ">=3.9.2,<3.14"
 cryptography = "^44.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.11.1"
 
 [build-system]
 requires = ["poetry-core"]
